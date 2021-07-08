@@ -173,20 +173,9 @@ endtime = time.asctime( time.localtime(time.time()) )
 print( "開始時間:", starttime)
 print( "結束時間:", endtime)
 print("執行時間：%f 秒" % (end - start))
-# In[8]:
 
 
-
-
-
-# In[71]:
-
-
-
-
-
-# In[ ]:
-
-
+## Model Save: Yiching add
+torch.save(model, '/mnt/mnist.pt')
 
 
